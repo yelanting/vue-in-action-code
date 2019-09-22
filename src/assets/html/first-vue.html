@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../../../static/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../../assets/css/app.css" />
+    <title>Vue.js Pet Depot</title>
+    <script src="../../../static/vue/vue.js"></script>
+</head>
+
+<body>
+    <div id="first-vue-app">
+        <h1>{{ msg }}</h1>
+    </div>
+    <script type="text/javascript">
+        var firstVueApp = new Vue({
+            el: "#first-vue-app",
+            data: function() {
+                return {
+                    msg: "Hello World!"
+                };
+            }
+        });
+    </script>
+</body>
+
+</html>
